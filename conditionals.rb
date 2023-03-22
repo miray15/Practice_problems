@@ -12,10 +12,13 @@ end
 # 2. Use a variable to store a number, then write a condition that prints -1 if the number is less than 10, prints 1 if the number is greater than 10, and prints 0 if the number is equal to 10.
 
 number = 12.5 
-if number < 10 
+if number < 10.0 
   p -1 
-elsif number <10 
+elsif number > 10.0
   p 1
+else 
+  number == 10.0
+  p 0 
 end 
 
 # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
