@@ -90,17 +90,23 @@
 
 # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
 
-number_1 = -5
-number_2 = -5
+# number_1 = -5
+# number_2 = -5
 
-if 
-  number_1 < 0 && number_2 > 0 
-  p 1
-else 
-  p 0 
-end 
+# if 
+#   number_1 < 0 && number_2 > 0 
+#   p 1
+# else 
+#   p 0 
+# end 
 
 # 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur).
+
+number = 90
+
+if number > 80 
+  p 5 
+end 
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/aee70f966f0f725609eee89b06e8a6c0
