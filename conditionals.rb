@@ -35,14 +35,20 @@
 
 # 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
 
-number = 1
-if number > 9000 
-  p 1
-else 
-  p 0
-end 
+# number = 1
+# if number > 9000 
+#   p 1
+# else 
+#   p 0
+# end 
 
 # 5. Use a variable to store a number, then write a condition that prints 9 if the number is less than 10, prints 19 if the number is less than 20, prints 29 if the number is less than 30, and prints -1 otherwise (only one print statement should occur).
+
+number = 9
+if number < 10 
+  p 19 
+else 
+end 
 
 # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
 
