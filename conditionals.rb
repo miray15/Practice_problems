@@ -58,8 +58,8 @@
 
 # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
 
-number_1 = 11
-number_2 = 20
+number_1 = 5
+number_2 = 5
 
 if number_1 > 10 || number_2 > 10 
   p 100 
