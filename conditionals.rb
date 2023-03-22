@@ -13,7 +13,9 @@ end
 
 number = 12.5 
 if number < 10 
-  p 1 
+  p -1 
+elsif number <10 
+  p 1
 end 
 
 # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
