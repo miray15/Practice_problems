@@ -24,7 +24,7 @@
 # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
 
 number_1 = 10
-number_2 = 1
+number_2 = 11
 
 if 
   number_1 && number_2 <10 
