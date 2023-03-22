@@ -1,6 +1,6 @@
 # 1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
 
-first_name = "Miray" 
+first_name = "Miray " 
 last_name = "Karabulut" 
 p first_name + last_name
 
