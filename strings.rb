@@ -8,10 +8,11 @@
 
 # 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
 
-first_name = Karol 
-last_name = Fallas 
+first_name = "Karol"
 
-
+last_name = "Fallas"
+ 
+p full_name = "This person's name is #{first_name} #{last_name}"
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 
