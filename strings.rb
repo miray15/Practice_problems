@@ -18,7 +18,9 @@
 
 p "Type a word:"
 word = gets.chomp 
-p word  
+if word == "marco"
+  p "polo"
+end 
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
 
