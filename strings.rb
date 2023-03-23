@@ -8,13 +8,17 @@
 
 # 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
 
-first_name = "Karol"
+# first_name = "Karol"
 
-last_name = "Fallas"
+# last_name = "Fallas"
  
-p full_name = "This person's name is #{first_name} #{last_name}"
+# p full_name = "This person's name is #{first_name} #{last_name}"
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+
+p "Type a word:"
+word = gets.chomp 
+p word  
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
 
