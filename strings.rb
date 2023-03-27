@@ -65,13 +65,19 @@
 
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
-p "Enter a password"
-password = gets.chomp.upcase 
-if password == "JOSHUA"
-  p "Shall we play a game?"
-else 
-  p "Access denied"
-end 
+# p "Enter a password"
+# password = gets.chomp.upcase 
+# if password == "JOSHUA"
+#   p "Shall we play a game?"
+# else 
+#   p "Access denied"
+# end 
 
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+city_1 = "Bloomington" 
+city_2 = "Franklin" 
+city_3 = "Memphis"
+
+p "Three small cities that you may or may not have heard of are " + city_1 + ", " + city_2 +  ", and " + city_3 + "."
