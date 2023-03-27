@@ -16,13 +16,19 @@
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 
-p "Type a word:"
-word = gets.chomp 
-if word == "marco"
-  p "polo"
-end 
+# p "Type a word:"
+# word = gets.chomp 
+# if word == "marco"
+#   p "polo"
+# end 
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+color_1 = "navy"  
+color_2 = "magenta" 
+color_3 = "burgundy" 
+
+p "The three most underrepresented colors for walls painted in medical offices are " + color_1 + ", " + color_2 + ", and" + color_3 + "."
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
