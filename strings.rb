@@ -32,13 +32,21 @@
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
-color_1 = "pink"  
-color_2 = "teal" 
-color_3 = "raisin" 
+# color_1 = "pink"  
+# color_2 = "teal" 
+# color_3 = "raisin" 
 
-p "The three most underrepresented colors in grocery stores are #{color_1}, #{color_2}, and #{color_3}." 
+# p "The three most underrepresented colors in grocery stores are #{color_1}, #{color_2}, and #{color_3}." 
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+p "Write a name"
+name = gets.chomp
+if name == "Santa" 
+  p "You got it!"
+else 
+  p "You're not Santa"
+end 
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
