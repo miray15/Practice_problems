@@ -42,7 +42,7 @@ word_1 = gets.chomp
 p "Enter another word"
 word_2 = gets.chomp 
 p "Your words capitalized are #{word_1.upcase} and #{word_2.upcase}"
-
+added
 
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
