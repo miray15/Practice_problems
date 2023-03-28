@@ -65,10 +65,16 @@
 
 # 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 
-p "Enter a number" 
-number_1 = gets.chomp
-p "Enter another number"
-number_2 = gets.chomp 
-p number_1.to_i * number_2.to_i
+# p "Enter a number" 
+# number_1 = gets.chomp
+# p "Enter another number"
+# number_2 = gets.chomp 
+# p number_1.to_i * number_2.to_i
 
 # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
+
+p "Enter a word"
+word = gets.chomp 
+if word.length > 5 
+  p "That's a long word"
+end 
