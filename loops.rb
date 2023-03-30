@@ -83,8 +83,8 @@
 # 10. Write a while loop that prints the even numbers from 2 to 40.
 
 
-i = 0 
-while i < 40
-  i = i + 2 
-  p i 
-end 
+# i = 0 
+# while i < 40
+#   i = i + 2 
+#   p i 
+# end 
