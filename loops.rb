@@ -27,13 +27,19 @@
 
 # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
-number = 0
-while number < 105 
-  p number 
-  number += 5
-end 
+# number = 0
+# while number < 105 
+#   p number 
+#   number += 5
+# end 
 
 # 5. Write a while loop that prints the number 9000 ten times.
+
+count = 0 
+while count < 11 
+  p 9000 
+  count = count + 1 
+end 
 
 # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
