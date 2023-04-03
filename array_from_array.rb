@@ -10,13 +10,22 @@
 
 # 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
 
-letters = ["a", "c", "d", "c"]
+# letters = ["a", "c", "d", "c"]
 
-letters[1] = 3 
+# letters[1] = 3 
 
-p letters 
+# p letters 
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
+
+numbers = [ 5, 6, 1, 2, 8]
+
+i = 0 
+
+while i < numbers.length 
+  p numbers[i]
+  i += 1
+end 
 
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
