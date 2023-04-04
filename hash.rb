@@ -1,9 +1,9 @@
 # 1. Make a hash to store a person's first name, last name, and email address. Then print each attribute on separate lines.
 
-person = {"first_name" => "Carolyn", "last_name" => "Jefferson", "email" => "cjj@test.com"}
-p person["first_name"]
-p person["last_name"]
-p person["email"]
+# person = {"first_name" => "Carolyn", "last_name" => "Jefferson", "email" => "cjj@test.com"}
+# p person["first_name"]
+# p person["last_name"]
+# p person["email"]
 
 # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 
