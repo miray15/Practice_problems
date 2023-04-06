@@ -37,14 +37,14 @@
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
 
-books = [
-{"title" => "The hilarious world of mermaids", "author" => "Jennifer Swimmingly"}, 
-{"title" => "Wonderful Waterfalls", "author" => "Jefferson Liable"},
-{"title" => "Canyonlands National Park", "author" =>  "Red Canyon Lewis"}, 
-{"title" => "Time for School", "author" => "lamps lamberson"}
-]
+# books = [
+# {"title" => "The hilarious world of mermaids", "author" => "Jennifer Swimmingly"}, 
+# {"title" => "Wonderful Waterfalls", "author" => "Jefferson Liable"},
+# {"title" => "Canyonlands National Park", "author" =>  "Red Canyon Lewis"}, 
+# {"title" => "Time for School", "author" => "lamps lamberson"}
+# ]
 
-p books[2 ]
+# p books[2]
 
 
 
