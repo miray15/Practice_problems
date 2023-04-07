@@ -2,8 +2,14 @@
 #     For example, [1, 2, 3] becomes [3, 6, 9].
 
 numbers = [1, 2, 3]
-numbers = numbers * 3 
-p numbers 
+new_numbers = [ ]
+index = 0 
+while index < numbers.length 
+  new_numbers << numbers[index] * 3
+  index += 1 
+end 
+p new_numbers
+
 
 #  2. Start with an array of strings and create a new array with each string upcased.
 #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
