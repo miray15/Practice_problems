@@ -113,23 +113,33 @@
 # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
 
-hashes = [
-  {name: "Alice", age: 27}, 
-  {name: "Blane", age: 16}, 
-  {name: "Jennifer", age: 64}, 
-  {name: "Larissa", age: 31}, 
-  {name: "Kwame", age: 37}
-]
-double_age = []
+# hashes = [
+#   {name: "Alice", age: 27}, 
+#   {name: "Blane", age: 16}, 
+#   {name: "Jennifer", age: 64}, 
+#   {name: "Larissa", age: 31}, 
+#   {name: "Kwame", age: 37}
+# ]
+# double_age = []
 
-index = 0 
-while index < hashes.length 
-double_age << hashes[index][:age].to_i * 2
-  index += 1 
-end 
+# index = 0 
+# while index < hashes.length 
+# double_age << hashes[index][:age].to_i * 2
+#   index += 1 
+# end 
 
-p double_age
+# p double_age
 
 
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
+
+numbers = [1, 2, 3]
+string = []
+index = 0 
+while index < numbers.length 
+  string << numbers[index].to_s 
+  index += 1 
+end 
+
+p string 
