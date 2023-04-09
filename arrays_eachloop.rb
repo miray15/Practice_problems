@@ -91,11 +91,11 @@
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
 
-numbers = [15, 30, 45, 60]
+# numbers = [15, 30, 45, 60]
 
-new_string = []
-numbers.each do |string|
-  new_string << string.to_s 
-end 
+# new_string = []
+# numbers.each do |string|
+#   new_string << string.to_s 
+# end 
 
-p new_string
+# p new_string
