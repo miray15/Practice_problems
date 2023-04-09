@@ -33,23 +33,31 @@
 #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 
-people = [
-  {name: "Kwame", age: 37}, 
-  {name: "Chelsea", age: 31}, 
-  {name: "Micah", age: 28}
+# people = [
+#   {name: "Kwame", age: 37}, 
+#   {name: "Chelsea", age: 31}, 
+#   {name: "Micah", age: 28}
 
-]
+# ]
 
-ages = []
+# ages = []
 
-people.each do |age|
-  ages << age[:age]
-end 
+# people.each do |age|
+#   ages << age[:age]
+# end 
 
-p ages 
+# p ages 
 
 #  7. Start with an array of numbers and create a new array with each number divided by 2.
 #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+
+numbers = [5, 6, 7, 9, 10]
+half_numbers = []
+numbers.each do |half|
+  half_numbers << half / 2.0 
+end 
+
+p half_numbers
 
 #  8. Start with an array of strings and create a new array with each string's first letter only.
 #     For example, ["hello", "goodbye"] becomes ["h", "g"].
