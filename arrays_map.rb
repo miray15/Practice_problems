@@ -67,25 +67,35 @@
 #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 
-hashes = [
-  {name: "Alice", age: 27}, 
-  {name: "Blane", age: 16}, 
-  {name: "Jennifer", age: 64}, 
-  {name: "Larissa", age: 31}, 
-  {name: "Kwame", age: 37}
-]
+# hashes = [
+#   {name: "Alice", age: 27}, 
+#   {name: "Blane", age: 16}, 
+#   {name: "Jennifer", age: 64}, 
+#   {name: "Larissa", age: 31}, 
+#   {name: "Kwame", age: 37}
+# ]
 
-index = 0 
-ages = []
-while index < hashes.length 
-  ages << hashes[index][:age]
-  index += 1
-end 
-p ages
+# index = 0 
+# ages = []
+# while index < hashes.length 
+#   ages << hashes[index][:age]
+#   index += 1
+# end 
+# p ages
 
 
 #  7. Start with an array of numbers and create a new array with each number divided by 2.
 #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+
+numbers = [1, 2, 3]
+half = []
+index = 0 
+while index < numbers.length 
+  half << numbers[index] * 0.50 
+  index += 1 
+end 
+
+p half 
 
 #  8. Start with an array of strings and create a new array with each string's first letter only.
 #     For example, ["hello", "goodbye"] becomes ["h", "g"].
