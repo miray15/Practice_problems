@@ -100,18 +100,36 @@
 #  8. Start with an array of strings and create a new array with each string's first letter only.
 #     For example, ["hello", "goodbye"] becomes ["h", "g"].
 
-strings = ["hello", "goodbye"]
-first_letter = []
-index = 0 
-while index < strings.length 
-  first_letter << strings[index].chr 
-  index += 1 
-end 
-p first_letter
+# strings = ["hello", "goodbye"]
+# first_letter = []
+# index = 0 
+# while index < strings.length 
+#   first_letter << strings[index].chr 
+#   index += 1 
+# end 
+# p first_letter
 
 
 # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+
+hashes = [
+  {name: "Alice", age: 27}, 
+  {name: "Blane", age: 16}, 
+  {name: "Jennifer", age: 64}, 
+  {name: "Larissa", age: 31}, 
+  {name: "Kwame", age: 37}
+]
+double_age = []
+
+index = 0 
+while index < hashes.length 
+double_age << hashes[index][:age].to_i * 2
+  index += 1 
+end 
+
+p double_age
+
 
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
