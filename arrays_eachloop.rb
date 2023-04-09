@@ -22,16 +22,31 @@
 #  5. Start with an array of strings and create a new array with each string's length.
 #     For example, ["hello", "goodbye"] becomes [5, 7].
 
-strings =  ["hello", "there", "and", "goodbye"]
-first_letter = []
-strings.each do |string|
-  first_letter << string.chr 
-end 
+# strings =  ["hello", "there", "and", "goodbye"]
+# first_letter = []
+# strings.each do |string|
+#   first_letter << string.chr 
+# end 
 
-p first_letter
-git 
+# p first_letter
+ 
 #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
+
+people = [
+  {name: "Kwame", age: 37}, 
+  {name: "Chelsea", age: 31}, 
+  {name: "Micah", age: 28}
+
+]
+
+ages = []
+
+people.each do |age|
+  ages << age[:age]
+end 
+
+p ages 
 
 #  7. Start with an array of numbers and create a new array with each number divided by 2.
 #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
