@@ -46,15 +46,25 @@
 #  5. Start with an array of strings and create a new array with each string's length.
 #     For example, ["hello", "goodbye"] becomes [5, 7].
 
-strings = ["whats", "up", "friends"]
-length = strings.map do |count|
-  count.length
-end 
-p length 
+# strings = ["whats", "up", "friends"]
+# length = strings.map do |count|
+#   count.length
+# end 
+# p length 
 
 #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 
+hashes = [
+  {name: "wayne", age: 62}, 
+  {name: "Clarence", age: 78}
+]
+
+age = hashes.map do |only_age|
+  only_age[:age]
+end 
+
+p age
 
 
 
