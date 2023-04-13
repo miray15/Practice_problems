@@ -1,19 +1,29 @@
 #  1. Start with an array of numbers and create a new array with only the numbers less than 20.
 #     For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
 
-numbers = [2, 32, 80, 18, 12, 3]
-less_than = []
-numbers.each do |smaller|
-  if smaller < 20 
-    less_than << smaller
-  end 
-end 
+# numbers = [2, 32, 80, 18, 12, 3]
+# less_than = []
+# numbers.each do |smaller|
+#   if smaller < 20 
+#     less_than << smaller
+#   end 
+# end 
 
-p less_than
+# p less_than
 
 #  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 #     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
 
+all = ["winner", "winner", "chicken", "dinner"]
+
+only_w = []
+
+all.each do |strings|
+  if strings[0].chr == "w"
+    only_w << strings
+  end 
+end 
+p only_w
 #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
 
