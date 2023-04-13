@@ -89,15 +89,20 @@
 # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
 
-original =[
-  {name: "bennifer", age: 27},
-  {name: "hennifer", age: 31}]
+# original =[
+#   {name: "bennifer", age: 27},
+#   {name: "hennifer", age: 31}]
 
-  doubled_age = original.map do |age|
-    age[:age] * 2 
-  end 
-  p doubled_age
+#   doubled_age = original.map do |age|
+#     age[:age] * 2 
+#   end 
+#   p doubled_age
 
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
 
+# number = [5, 10, 15, 26]
+# number_to_string = number.map do |convert|
+#   convert.to_s 
+# end 
+# p number_to_string
