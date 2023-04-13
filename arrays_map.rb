@@ -23,20 +23,25 @@
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
 
 
-people = [
-  {name: "bennifer", age: 27},
-  {name: "hennifer", age: 31}
-]
+# people = [
+#   {name: "bennifer", age: 27},
+#   {name: "hennifer", age: 31}
+# ]
 
-names_only = people.map do |first_name|
-  first_name[:name]
-end 
-p names_only
+# names_only = people.map do |first_name|
+#   first_name[:name]
+# end 
+# p names_only
 
 #  4. Start with an array of numbers and create a new array with each number plus 7.
 #     For example, [1, 2, 3] becomes [8, 9, 10].
 
+numbers = [1, 2, 3]
+plus_seven = numbers.map do |add|
+  add + 7
+end 
 
+p plus_seven
 
 #  5. Start with an array of strings and create a new array with each string's length.
 #     For example, ["hello", "goodbye"] becomes [5, 7].
