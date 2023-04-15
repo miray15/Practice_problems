@@ -44,15 +44,22 @@
 #  4. Start with an array of numbers and create a new array with only the even numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
 
-numbers = [2, 4, 6, 8, 1, 3, 5, 7]
-numbers.map do |even_only|
-  if even_only % 2 == 0 
-    p even_only
-  end 
-end 
+# numbers = [2, 4, 6, 8, 1, 3, 5, 7]
+# numbers.map do |even_only|
+#   if even_only % 2 == 0 
+#     p even_only
+#   end 
+# end 
 
 #  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 #     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
+
+strings = ["abcde", "abcd", "abc", "ab", "a"]
+strings.map do |four_letters|
+  if four_letters.length  4
+    p four_letters
+  end 
+end 
 
 #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
