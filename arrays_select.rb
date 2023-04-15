@@ -79,16 +79,26 @@
 #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
 
-numbers = [8, 23, 0, 44, 1980, 3]
+# numbers = [8, 23, 0, 44, 1980, 3]
 
-numbers.map do |less_than_10|
-  if less_than_10 < 10 
-    p less_than_10
-  end 
-end 
+# numbers.map do |less_than_10|
+#   if less_than_10 < 10 
+#     p less_than_10
+#   end 
+# end 
 
 #  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 #     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
+
+strings =  ["big", "little", "good", "bad"]
+no = []
+strings.map do |dont_start|
+  if dont_start.chr == "b"
+    no << dont_start
+  else 
+    p dont_start
+  end 
+end 
 
 #  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
