@@ -56,7 +56,7 @@
 
 strings = ["abcde", "abcd", "abc", "ab", "a"]
 strings.map do |four_letters|
-  if four_letters.length  4
+  if four_letters.length < 4
     p four_letters
   end 
 end 
