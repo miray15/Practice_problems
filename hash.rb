@@ -41,12 +41,12 @@
 # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
 
-capitols = {"Michigan" =>  "Lansing", "California" => "Sacramento", "Texas" => "Dallas"} 
+# capitols = {"Michigan" =>  "Lansing", "California" => "Sacramento", "Texas" => "Dallas"} 
 
-capitols["Tennessee"] = "Nashville"
+# capitols["Tennessee"] = "Nashville"
 
 
-p capitols 
+# p capitols 
 
 # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 
@@ -58,7 +58,9 @@ p capitols
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
-
+words = {"because" => "I said so", "and" => "together"}
+words["weird"] = "odd"
+p words 
 
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
