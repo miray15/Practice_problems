@@ -1,14 +1,21 @@
 # 1. Make a hash to store a person's first name, last name, and email address. Then print each attribute on separate lines.
 
-person = {"first name" => "Caroline", "last_name" => "Tran", "email address" => "ct@test.com"}
+# person = {"first name" => "Caroline", "last_name" => "Tran", "email address" => "ct@test.com"}
 
-person.map do |attribute|
-  p attribute
-end 
+# person.map do |attribute|
+#   p attribute
+# end 
 
 
 # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 
+names = [
+  {"first name" => "Jennifer", "last name" => "Rogerson"},
+  {"first name" => "Blake", "last name" => "Sheldon"},
+  {"first name" => "Frank", "last name" => "Frankerson"},
+]
+
+p names[1]
 
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
