@@ -20,13 +20,13 @@
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
-menu = [
-  {"name" => "hotdog", "price" => 5}, 
-  {"name" => "bubble gum", "price" => 1}, 
-  {"name" => "lemonade", "price" => 2}, 
-]
+# menu = [
+#   {"name" => "hotdog", "price" => 5}, 
+#   {"name" => "bubble gum", "price" => 1}, 
+#   {"name" => "lemonade", "price" => 2}, 
+# ]
 
-p menu 
+# p menu 
 
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
@@ -41,8 +41,12 @@ p menu
 # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
 
+capitols = {"Michigan" =>  "Lansing", "California" => "Sacramento", "Texas" => "Dallas"} 
+
+capitols["Tennessee"] = "Nashville"
 
 
+p capitols 
 
 # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 
