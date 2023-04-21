@@ -16,13 +16,20 @@
 
 # 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
-def add(number1, number2)
-  return number1 - number2
-end 
+# def add(number1, number2)
+#   return number1 - number2
+# end 
 
-p add(5, 1)
+# p add(5, 1)
+asdas
 
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+
+def double(number1, number2)
+  return number1 * number2 
+end 
+
+p double(5, 5)
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
