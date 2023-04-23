@@ -76,12 +76,18 @@
 #  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
 
-things = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+# things = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
 
-less = things.select do |prices|
-  prices[:price] < 10 
-end 
-p less 
+# less = things.select do |prices|
+#   prices[:price] < 10 
+# end 
+# p less 
 
 # 10. Start with an array of numbers and create a new array with only the odd numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
+
+numbers = [2, 4, 5, 1, 8, 9, 7] 
+odd = numbers.select do |number|
+  number % 2 == 1 
+end 
+p odd 
