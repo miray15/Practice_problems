@@ -30,14 +30,20 @@
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
 
 
- numbers = [2, 4, 5, 1, 8, 9, 7]
- evens = numbers.select do |number|
-  number.even?  
- end 
- p evens 
+#  numbers = [2, 4, 5, 1, 8, 9, 7]
+#  evens = numbers.select do |number|
+#   number.even?  
+#  end 
+#  p evens 
+
 #  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 #     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
 
+strings = ["a", "man", "a", "plan", "a", "canal", "panama"]
+four = strings.select do |letters|
+  letters.length < 4
+end 
+p four    
 
 
 #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
