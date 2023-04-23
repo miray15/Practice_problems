@@ -1,15 +1,21 @@
 #  1. Start with an array of numbers and create a new array with each number times 3.
 #     For example, [1, 2, 3] becomes [3, 6, 9].
 
-numbers = [1, 2, 3]
-tripled = numbers.map do |number|
-  number * 3 
-end 
-p tripled 
+# numbers = [1, 2, 3]
+# tripled = numbers.map do |number|
+#   number * 3 
+# end 
+# p tripled 
 
 
 #  2. Start with an array of strings and create a new array with each string upcased.
 #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
+
+strings = ["hello", "goodbye"]
+upcase = strings.map do |string|
+  string.upcase 
+end 
+p upcase 
 
 #  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
