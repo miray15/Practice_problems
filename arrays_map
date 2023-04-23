@@ -77,9 +77,9 @@
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
 
-numbers = [1, 2, 3] 
-new_numbers = []
-numbers.map do |strings|
-new_numbers << strings.to_S
-end 
-p new_numbers
+# numbers = [1, 2, 3] 
+# new_numbers = []
+# numbers.map do |strings|
+# new_numbers << strings.to_S
+# end 
+# p new_numbers
