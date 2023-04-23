@@ -48,11 +48,16 @@
 # p string(1)
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
-def repeat(string)
-  return string * 5
-end 
-p repeat("five")
+# def repeat(string)
+#   return string * 5
+# end 
+# p repeat("five")
 
 # 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
+
+def average(number1, number2, number3)
+return (number1 + number2 + number3) / 3 
+end 
+p average(3, 3, 3)
 
 # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
