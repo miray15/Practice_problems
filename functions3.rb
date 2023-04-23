@@ -21,13 +21,17 @@
 
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
 
-def times(number)
-  return number * number
-end 
-p times(5)
+# def times(number)
+#   return number * number
+# end 
+# p times(5)
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
+def first(string)
+  return string.chr
+end 
+p first("hello")
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
